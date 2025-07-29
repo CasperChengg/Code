@@ -2,6 +2,7 @@
 #define EDIT_NEAREST_NEIGHBORS_H
 
 #include <cmath>        // sqrt
+#include <limits>       // std::numeric_limits
 #include <memory>       // std::unique_ptr
 #include <vector>       // std::vector
 #include <cstdint>      // uint32_t

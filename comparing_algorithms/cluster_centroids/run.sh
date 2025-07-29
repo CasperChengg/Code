@@ -70,6 +70,9 @@ DTC_MAX_PURITY=0.95
 CC_TOLERANCE=0.0001
 CC_MAX_ITERS=100
 
+if [ ! -d "./build" ]; then
+    mkdir -p ./build
+fi
 cd build
 CMAKE_OPTIONS="
     -DDTC_MIN_SAMPLES_SPLIT=${DTC_MIN_SAMPLES_SPLIT}

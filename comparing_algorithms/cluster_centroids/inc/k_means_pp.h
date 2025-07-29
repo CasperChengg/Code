@@ -1,5 +1,6 @@
 #include <cmath>    // sqrt
 #include <vector>
+#include <limits>   // std::numeric_limits
 #include <memory>   // std::unique_ptr
 #include <random>   // std::random_device, std::mt19937 gen(), std::uniform_real_distribution<>;
 #include <limits>   // std::numeric_limits<float>::max();
